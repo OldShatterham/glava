@@ -25,7 +25,8 @@ glava_dependencies = [
   cc.find_library('dl'),
   cc.find_library('m'),
   cc.find_library('X11'),
-  cc.find_library('Xext')
+  cc.find_library('Xext'),
+  cc.find_library('jack')
 ]
 
 if cc.get_id() == 'clang'
