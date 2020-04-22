@@ -1,4 +1,6 @@
 
+***Note:*** *This fork of GLava introduces support for the JACK Audio Connector Kit.*
+
 <img align="left" width="200" height="200" src="https://thumbs.gfycat.com/DefiantInformalIndianspinyloach-size_restricted.gif" />
 
 **GLava** is a general-purpose, highly configurable OpenGL audio spectrum visualizer for X11. Displayed to the left is the `radial` shader module, or for a more extensive demonstration [see this demo](https://streamable.com/dgpj8). Development is active, and reporting issues is encouranged.
@@ -35,6 +37,7 @@ Note that versions since `2.0` use Meson for the build system, although the `Mak
 
 - Meson
 - OBS (disable with `-Ddisable-obs=true`)
+- JACK
 
 **Optional requirements:**
 
