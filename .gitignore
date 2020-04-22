@@ -1,1 +1,3 @@
 build/
+buildScript.sh
+shaders/glava/rc_test.glsl
